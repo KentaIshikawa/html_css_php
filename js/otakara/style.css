@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul {
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    width: 160px;
+    height: 160px;
+    background-image: url(takara.jpg);
+    background-position: 0 0;
+    cursor: pointer;
+}
+
+.hazure {
+    background-position: 0 -160px;
+}
+
+.atari {
+    background-position: 0 -320px;
+}
