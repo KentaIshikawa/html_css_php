@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+.lesson .lesson_top_img {
+    margin-bottom: 160px;
+}
+
+.lesson .lesson_feature {
+    margin-bottom: 160px;
+}
+
+.lesson_feature_box_wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 80px;
+    margin-bottom: 80px;
+}
+
+.lesson_feature_box {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.lesson_feature_box img {
+    margin-bottom: 16px;
+}
+
+.lesson_feature_box h5 {
+    font-size: 26px;
+    color: #f77237;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.lesson_feature_text {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lesson_feature_text p {
+    margin-bottom: 16px;
+}
+
+.lesson_summary {
+    margin-bottom: 160px;
+}
+
+.lesson_summary_price {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.lesson_summary_text ul {
+    list-style: disc;
+    list-style-position: inside;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.lesson_summary_text ul li {
+    margin-bottom: 8px;
+}
+
+.lesson_voice {
+    margin-bottom: 240px;
+}
+
+.lesson_voice_text {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.lesson_voice_box_wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 24px;
+    margin-bottom: 80px;
+}
+
+.lesson_voice_box {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-gap: 8px;
+    position: relative;
+    transition: 0.2s;
+
+}
+
+.lesson_voice_box img {
+    border-radius: 50%;
+}
+
+.lesson_voice_box_title {
+    color: #f77237;
+    align-self: center;
+}
+
+.lesson_voice_box_text {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.lesson_voice_box a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+
+.lesson_voice_box:hover {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.lesson_voice_box a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/*====================
+key
+=====================*/
+.key_title {
+    background-image: url(../../img/top_shop.jpg);
+    background-size: cover;
+    margin-bottom: 160px;
+}
+
+.key_title .key_title_inner {
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    transform: translateX(-80px);
+}
+
+
+.key_title .key_title_inner img {
+    width: 520px;
+    filter: drop-shadow(0 0 1px #000)
+}
+
+/*====================
+concept
+=====================*/
+.concept {
+    text-align: center;
+    margin-bottom: 160px;
+}
+
+.concept p {
+    margin-bottom: 16px;
+}
+
+/*====================
+menu
+=====================*/
+/*flex*/
+/* .menu .menu_inner .menu_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu .menu_inner .menu_img li {
+    width: 298px;
+    margin-bottom: 16px;
+} */
+
+.menu {
+    margin-bottom: 160px;
+}
+
+.menu .menu_inner .menu_img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    margin-bottom: 80px;
+}
+
+.menu .menu_inner .menu_text {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*====================
+lesson
+=====================*/
+.lesson {
+    margin-bottom: 160px;
+}
+
+.lesson .lesson_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson .lesson_inner .lesson_left_box,
+.lesson .lesson_inner .lesson_img {
+    width: 600px;
+}
+
+.lesson .lesson_inner .lesson_left_box .lesson_text {
+    margin-bottom: 40px;
+}
+
+.lesson .contents_title {
+    margin-bottom: 40px;
+}
+
+/*====================
+bg_placeholder
+=====================*/
+.bg_placeholder {
+    margin-bottom: 160px;
+    /* height: 600px; */
+    aspect-ratio: 16/9;
+    background-image: url(../../img/top_showcase.jpg);
+    background-size: cover;
+    /*iphoneは効かない*/
+    background-attachment: fixed;
+}
+
+/*====================
+news
+=====================*/
+.news {
+    margin-bottom: 240px;
+}
+
+.news .news_inner dl {
+    display: flex;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px dotted #f77237;
+    margin-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
+.news .news_inner dl dt {
+    width: 20%;
+}
+
+.news .news_inner dl dd {
+    width: 80%;
+}

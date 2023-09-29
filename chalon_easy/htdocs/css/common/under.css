@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.under_title {
+    background-image: url(../../img/top_lesson.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 80px;
+}
+
+.under_title .under_title_inner {
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.under_title .under_title_inner img {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 24px 48px;
+}
+
+.page_title {
+    font-size: 66px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 160px;
+    color: #f77237;
+    font-family: 'Noto Serif JP', serif;
+}
+
+.section_title {
+    font-size: 41px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: #f77237;
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+}
