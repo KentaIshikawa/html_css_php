@@ -59,8 +59,10 @@ if(day == 0){
     now_date += '（土）';
 }
 
-console.log(now_date);
+const hizuke = document.querySelector('#hizuke');
+hizuke.innerHTML = now_date;
 </pre>
+        <p id="hizuke"></p>
     </div>
     <script>
         //変数todayにnew Date()を代入（正確には代入ではなくインスタンス化と呼ぶ）
@@ -88,7 +90,7 @@ console.log(now_date);
 
 
 
-        //変数now_dateを開発者ツールに出力
+        //変数now_dateをidがhizukeのpタグに出力
 
     </script>
 </body>

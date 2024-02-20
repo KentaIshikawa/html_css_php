@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-image:url(inu.jpg);
+}
+
+h1{
+    color:#ff2418;
+}
+
+h2{
+    color:#548493;
+}
+
+section{
+    background-color:#fff;
+    width:300px;
+    margin:0 auto;
+}

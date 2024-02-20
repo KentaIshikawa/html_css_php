@@ -22,16 +22,21 @@
 
 const year = 2020;
 
+let message = '';
 if(year % 400 == 0){
-    console.log(year+'年はうるう年');
+    mes = year+'年はうるう年';
 }else if(year % 100 == 0){
-    console.log(year+'年はうるう年じゃない');
+    mes = year+'年はうるう年じゃない';
 }else if(year % 4 == 0){
-    console.log(year+'年はうるう年');
+    mes = year+'年はうるう年';
 }else{
-    console.log(year+'年はうるう年じゃない');
+    mes = year+'年はうるう年じゃない';
 }
+
+const text = document.querySelector('#text');
+text.innerHTML = mes;
     </pre>
+        <p id="text"></p>
     </div>
     <script>
         //変数yearに2021を代入
@@ -39,7 +44,7 @@ if(year % 400 == 0){
 
         //条件が複数ある時は、満たされにくい順から考えると、if文が少しシンプルになる
 
-
+        //idがtextのpタグにメッセージを出力
 
 
     </script>

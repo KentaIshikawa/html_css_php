@@ -1,0 +1,33 @@
+body{
+    color:#ffff61;
+    background:#4B4794;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 150px;
+}
+
+img{
+    float: left;
+}
+
+.seinen{
+    margin-bottom: 50px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    border:3px solid #33ee90;
+}
+
+td{
+    border:3px solid #33ee90;
+}
+
+a{
+    color:#fff;
+}
